@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project default="create_run_jar" name="iprophet2ProxlXML.jar  Create Runnable Jar for Jar-in-Jar Loader">
+<project default="create_run_jar" name="kojakTPP2ProxlXML.jar  Create Runnable Jar for Jar-in-Jar Loader">
 
 	<property name="java_target" value="1.8"/>
 	<property name="java_source" value="1.8"/>
 		
 	<property name="java.source.character.set" value="iso-8859-1"/>
 
-	<property name="jar.main.class" value="org.yeastrc.proxl.xml.iprophet.main.MainProgram" />
+	<property name="jar.main.class" value="org.yeastrc.proxl.xml.kojak_tpp.main.MainProgram" />
 
-	<property name="output_runnable_jar" value="iprophet2ProxlXML.jar"/>
+	<property name="output_runnable_jar" value="kojakTPP2ProxlXML.jar"/>
 
-	
     <property name="deploy" value="deploy" />
 
 	<property name="src" value="src" />
